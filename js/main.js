@@ -2057,8 +2057,8 @@ CanvasClip.prototype.onClick = function (canvasObject, block, count, index, fit)
                         }
                     );
 
-                    if ($(block).hasClass('portfolio')) {
-                        $fotoramaFullScreen.addClass('portfolio');
+                    if ($(block).hasClass('campaign')) {
+                        $fotoramaFullScreen.addClass('campaign');
                     }
 
                     setTimeout(function () { // show fullscreen fotorama after some time
@@ -2514,7 +2514,7 @@ function initFotorama(owl, count) {
                         return;
                     }
 
-                    if ($(owl).hasClass('portfolio')) {
+                    if ($(owl).hasClass('campaign')) {
                         return;
                     }
 
